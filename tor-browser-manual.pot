@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-19 15:30-0700\n"
+"POT-Creation-Date: 2018-09-07 16:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,7 +180,7 @@ msgid "Each of the transports listed in Tor Launcher’s menu works in a differe
 msgstr ""
 
 #: circumvention.page:67
-msgid "If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure, meek-amazon."
+msgid "If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake."
 msgstr ""
 
 #: circumvention.page:72
@@ -208,66 +208,66 @@ msgid "GetTor"
 msgstr ""
 
 #: downloading.page:28
-msgid "GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.."
+msgid "GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub."
 msgstr ""
 
-#: downloading.page:34
+#: downloading.page:33
 msgid "To use GetTor via email:"
 msgstr ""
 
-#: downloading.page:39
+#: downloading.page:38
 msgid "Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system."
 msgstr ""
 
-#: downloading.page:46
+#: downloading.page:45
 msgid "GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using."
 msgstr ""
 
-#: downloading.page:57
+#: downloading.page:56
 msgid "To use GetTor via Twitter:"
 msgstr ""
 
-#: downloading.page:62
+#: downloading.page:61
 msgid "To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words \"osx en\" in it (you don't need to follow the account)."
 msgstr ""
 
-#: downloading.page:70
-msgid "To use GetTor via Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):"
+#: downloading.page:69
+msgid "To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr ""
 
-#: downloading.page:75
+#: downloading.page:74
 msgid "To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words \"linux zh\" in it."
 msgstr ""
 
-#: downloading.page:84
+#: downloading.page:83
 msgid "Satori"
 msgstr ""
 
-#: downloading.page:85
+#: downloading.page:84
 msgid "Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources."
 msgstr ""
 
-#: downloading.page:90
+#: downloading.page:89
 msgid "To download Tor Browser using Satori:"
 msgstr ""
 
-#: downloading.page:95
+#: downloading.page:94
 msgid "Install Satori from the Chrome App Store."
 msgstr ""
 
-#: downloading.page:100
+#: downloading.page:99
 msgid "Select Satori from your browser’s Apps menu."
 msgstr ""
 
-#: downloading.page:105
+#: downloading.page:104
 msgid "When Satori opens, click on your preferred language. A menu will open listing the available downloads for that language. Find the entry for Tor Browser under the name of your operating system. Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software. Your download will then begin."
 msgstr ""
 
-#: downloading.page:115
+#: downloading.page:114
 msgid "Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”."
 msgstr ""
 
-#: downloading.page:121
+#: downloading.page:120
 msgid "Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <link xref=\"first-time\">begin using Tor Browser</link>. If they do not match, you may need to try downloading again, or from a different source."
 msgstr ""
 
@@ -539,7 +539,7 @@ msgid "external ref='media/onionsites/onion_url.png' md5='f97f7fe10f07c3959c4430
 msgstr ""
 
 #: onionsites.page:50
-msgid "Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of sixteen mostly random letters and numbers, followed by “.onion”."
+msgid "Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
 
 #: onionsites.page:58
@@ -548,7 +548,7 @@ msgid "Troubleshooting"
 msgstr ""
 
 #: onionsites.page:59
-msgid "If you cannot reach the onion service you require, make sure that you have entered the 16-character onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site."
+msgid "If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site."
 msgstr ""
 
 #: onionsites.page:64
@@ -588,31 +588,31 @@ msgid "JavaScript is a programming language that websites use to offer interacti
 msgstr ""
 
 #: plugins.page:39
-msgid "Tor Browser includes an add-on called NoScript, accessed through the “S” icon at the top-left of the window, which allows you to control the JavaScript that runs on individual web pages, or to block it entirely."
+msgid "Tor Browser includes an add-on called NoScript, accessed through the “S” icon at the top-left of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely."
 msgstr ""
 
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: plugins.page:45
+#: plugins.page:46
 msgctxt "_"
 msgid "external ref='media/plugins/noscript_menu.png' md5='df9e684b76a3c2e2bdcb879a19c20471'"
 msgstr ""
 
-#: plugins.page:47
-msgid "Users who require a high degree of security in their web browsing should set Tor Browser’s <link xref=\"security-slider\">Security Slider</link> to “Medium-High” (which disables JavaScript for non-HTTPS websites) or “High” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts."
-msgstr ""
-
-#: plugins.page:58
-msgid "Browser Add-ons"
+#: plugins.page:48
+msgid "Users who require a high degree of security in their web browsing should set Tor Browser’s <link xref=\"security-slider\">Security Slider</link> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
 
 #: plugins.page:59
+msgid "Browser Add-ons"
+msgstr ""
+
+#: plugins.page:60
 msgid "Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser."
 msgstr ""
 
-#: plugins.page:64
+#: plugins.page:65
 msgid "However, the only add-ons that have been tested for use with Tor Browser are those included by default. Installing any other browser add-ons may break functionality in Tor Browser or cause more serious problems that affect your privacy and security. It is strongly discouraged to install additional add-ons, and the Tor Project will not offer support for these configurations."
 msgstr ""
 
@@ -720,7 +720,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: security-slider.page:34
 msgctxt "_"
-msgid "external ref='media/security-slider/slider_window.png' md5='b544042427621246c7d1025d478235c3'"
+msgid "external ref='media/security-slider/slider_window.png' md5='d5faf391c99f88aff8541a68bdc6a776'"
 msgstr ""
 
 #: security-slider.page:36
@@ -728,7 +728,7 @@ msgid "Increasing the level of the Security Slider will disable or partially dis
 msgstr ""
 
 #: security-slider.page:42
-msgid "High"
+msgid "Safest"
 msgstr ""
 
 #: security-slider.page:43
@@ -736,7 +736,7 @@ msgid "At this level, HTML5 video and audio media become click-to-play via NoScr
 msgstr ""
 
 #: security-slider.page:53
-msgid "Medium"
+msgid "Safer"
 msgstr ""
 
 #: security-slider.page:54
@@ -744,11 +744,112 @@ msgid "At this level, HTML5 video and audio media become click-to-play via NoScr
 msgstr ""
 
 #: security-slider.page:64
-msgid "Low"
+msgid "Standard"
 msgstr ""
 
 #: security-slider.page:65
 msgid "At this level, all browser features are enabled. This is the most usable option."
+msgstr ""
+
+#: translate.page:6
+msgid "Becoming a translator for the Tor Project"
+msgstr ""
+
+#: translate.page:10
+msgid "Becoming a Tor Translator"
+msgstr ""
+
+#: translate.page:12
+msgid "If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated! In order to begin contributing you will have to sign up with Transifex, the third-party that faciliates our translations. Below is an outline of how to sign up and begin."
+msgstr ""
+
+#: translate.page:21
+msgid "Signing up on Transifex"
+msgstr ""
+
+#: translate.page:24
+msgid "Head over to the <link href=\"https://transifex.com/signup/\">Transifex signup page</link>."
+msgstr ""
+
+#: translate.page:30
+msgid "Enter your information into the fields and click the 'Sign Up' button:"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: translate.page:34
+msgctxt "_"
+msgid "external ref='media/translate/tr1.png' md5='a94cfd90c9982916a987e2807ae5e4f6'"
+msgstr ""
+
+#: translate.page:38
+msgid "Fill out the next page with your name and select \"Localization\" and \"Translator\" from the drop-down menus:"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: translate.page:43
+msgctxt "_"
+msgid "external ref='media/translate/tr2.png' md5='06debc9e9dbc7ac198103a89a6961774'"
+msgstr ""
+
+#: translate.page:47
+msgid "On the next page, select 'Join an existing project' and continue."
+msgstr ""
+
+#: translate.page:52
+msgid "On the next page, select the languages you speak from the drop-down menu and continue."
+msgstr ""
+
+#: translate.page:58
+msgid "You are now signed up! Go to the <link href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</link>."
+msgstr ""
+
+#: translate.page:64
+msgid "Click the blue 'Join Team' button on the far right:"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: translate.page:68
+msgctxt "_"
+msgid "external ref='media/translate/tr3.png' md5='7da6c9968cabbe9c1ecc7cdf645407e8'"
+msgstr ""
+
+#: translate.page:72
+msgid "Select the language you would like to translate from the dropdown menu:"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: translate.page:76
+msgctxt "_"
+msgid "external ref='media/translate/tr4.png' md5='835a266a5d4c368a2777cf171980f0b4'"
+msgstr ""
+
+#: translate.page:80
+msgid "A notification will now show up on the top of the page like so:"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: translate.page:84
+msgctxt "_"
+msgid "external ref='media/translate/tr5.png' md5='935417a5d3b4a89e5d00508ea671a1fc'"
+msgstr ""
+
+#: translate.page:88
+msgid "After your membership is approved you can begin translating; simply navigate back to the <link href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</link> when you are ready to begin. Thanks for your interest in helping the project!"
 msgstr ""
 
 #: transports.page:6
@@ -773,39 +874,47 @@ msgid "obfs3"
 msgstr ""
 
 #: transports.page:33
-msgid "obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. obfs3 bridges will work in most places."
+msgid "obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3."
 msgstr ""
 
-#: transports.page:42
+#: transports.page:43
 msgid "obfs4"
 msgstr ""
 
-#: transports.page:47
+#: transports.page:48
 msgid "obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges."
 msgstr ""
 
-#: transports.page:56
+#: transports.page:57
 msgid "Scramblesuit"
 msgstr ""
 
-#: transports.page:61
+#: transports.page:62
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
 msgstr ""
 
-#: transports.page:69
+#: transports.page:70
 msgid "FTE"
 msgstr ""
 
-#: transports.page:74
+#: transports.page:75
 msgid "FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic."
 msgstr ""
 
-#: transports.page:82
+#: transports.page:83
 msgid "meek"
 msgstr ""
 
-#: transports.page:87
+#: transports.page:88
 msgid "These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search."
+msgstr ""
+
+#: transports.page:100
+msgid "Snowflake"
+msgstr ""
+
+#: transports.page:105
+msgid "Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
 
 #: troubleshooting.page:6
