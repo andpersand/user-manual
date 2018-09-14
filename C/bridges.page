@@ -7,7 +7,7 @@
   <link type="topic" xref="circumvention" />
 </info>
 
-<title>Bridges</title>
+<title>Bridgezzzz</title>
 
 <p>
  Most <link xref='transports'>Pluggable Transports</link>, such as obfs3
@@ -55,7 +55,7 @@ to obtain bridge addresses in order to use these transports.
  </p>
 
  <p>
- Choose “yes” when asked if your Internet Service Provider blocks connections to 
+ Choose “yes” when asked if your Internet Service Provider blocks connections to
  the Tor network. Select “Use custom bridges” and enter each bridge address
  on a separate line.
  </p>
